@@ -3,5 +3,5 @@
 ## Deploy
 
 ```
-push-dir --dir=dist --branch=master --cleanup
+push-dir --dir=dist --branch=main --cleanup
 ```
