@@ -1,0 +1,11 @@
+{
+  "name": "contact_form",
+  "version": "1.0.0",
+  "description": "Pulsemed contact form",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.864.0",
+    "google-recaptcha": "^1.1.0"
+  }
+}
