@@ -1,0 +1,14 @@
+/* ##Top Panel */
+.top-panel a:hover,
+.search-form__toggle:hover,
+.site-header-cart .cart-contents:hover i {
+	color: $regular_accent_color_1;
+}
+.invert .widget ul li.current-menu-item a,
+.invert .widget ul li a:hover,
+.site-footer a:hover,
+.footer-menu__items li a:hover,
+.footer-menu__items li.current-menu-item a,
+.footer-menu__items li.current_page_item a {
+	color: @lighten($regular_accent_color_1, 20%);
+}

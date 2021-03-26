@@ -1,0 +1,17 @@
+// Projects
+.cherry-projects-wrapper {
+	.projects-container:not(.list-layout) {
+		.projects-item {
+			.hover-content {
+				padding: 15%;
+			}
+			.project-entry-title {
+				@include font-size(24/16);
+				line-height: 1.25;
+			}
+			.post-terms {
+				@include font-size(14/16);
+			}
+		}
+	}
+}

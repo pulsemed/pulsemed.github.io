@@ -1,0 +1,110 @@
+/* Cherry Team Members */
+
+/* Template List BeMIND skin */
+
+.cherry-team.team-wrap.template-list-bemind {
+	.team-item {
+		padding-bottom: 32px;
+	}
+	.team-listing_wrap {
+		@include media-breakpoint-up(sm) {
+			display: flex;
+			align-items: flex-start;
+			padding: 19px 19px 38px;
+			background-color: $color__white;
+		}
+		@include media-breakpoint-down(md) {
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+		}
+	}
+	.team-listing_image {
+		max-width: 270px;
+		flex-shrink: 0;
+		position: relative;
+		margin-right: 30px;
+		@include media-breakpoint-down(md) {
+			margin-right: 0;
+		}
+		@include media-breakpoint-down(sm) {
+			margin: 0 auto;
+		}
+		.team-listing_photo {
+			padding: 0;
+		}
+		.team-listing_content {
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			opacity: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: rgba(0, 0, 0, .6);
+			transition: opacity 0.35s ease-in-out;
+			.team-socials {
+				margin: 0;
+			}
+		}
+		&:hover {
+			.team-listing_content {
+				opacity: 1;
+			}
+		}
+	}
+	.team-listing_person_info {
+		.team-listing_name {
+			padding-top: 7px;
+			font-size: 20px;
+			margin-bottom: 0;
+		}
+		.team-listing_position {
+			padding-bottom: 14px;
+		}
+		align-self: center;
+		.team-listing_desc,
+		.team-listing_desc p {
+			display: inline;
+		}
+		.btn {
+			display: block;
+			text-align: left;
+			font-size: 12px;
+			padding: 0;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-weight: 700;
+			letter-spacing: 1.2px;
+			background: none;
+			margin-left: 0px;
+			margin-top: 30px;
+			@include media-breakpoint-down(md) {
+				text-align: center;
+			}
+			&:after {
+				@include font-awesome-icon;
+				content: '\f0da';
+				margin-left: 4px;
+			}
+		}
+		&__footer {
+			.team-macros {
+				margin-bottom: 0;
+			}
+			margin-top: 20px;
+		}
+	}
+	.team-socials_link {
+		color: $color__white;
+	}
+	.team-socials_label {
+		color: $color__dark;
+		background-color: $color__white;
+		&:before {
+			border-color: $color__white transparent transparent transparent;
+		}
+	}
+}

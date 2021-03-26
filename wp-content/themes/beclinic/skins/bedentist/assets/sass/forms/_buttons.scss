@@ -1,0 +1,24 @@
+input.wpcf7-form-control.wpcf7-submit:focus {
+	box-shadow: none;
+}
+
+// General styles
+button,
+a.button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'],
+.btn,
+.elementor-widget-container .elementor-button {
+	@include font-size(20/16);
+	font-weight: 700;
+	text-transform: initial;
+	letter-spacing: 0;
+}
+
+.header-btn.btn {
+	padding: 14px 30px 13px;
+	@media (max-width: 1200px) {
+		padding: 11px 10px 12px;
+	}
+}

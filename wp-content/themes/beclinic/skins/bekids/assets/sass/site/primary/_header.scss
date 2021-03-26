@@ -1,0 +1,23 @@
+@import "header/logo";
+.header-phone {
+	margin: 0;
+	font-weight: 700;
+	.site-header.style-2 & {
+		font-size: 20px;
+		@include media-breakpoint-up(xl) {
+			font-size: 24px;
+		}
+	}
+	&:before {
+		content: '';
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 10px;
+		width: 22px;
+		height: 22px;
+		background: url('assets/images/header-phone-icon.png');
+	}
+	span {
+		font-weight: normal;
+	}
+}

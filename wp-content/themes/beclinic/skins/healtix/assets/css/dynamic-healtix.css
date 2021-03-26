@@ -1,0 +1,126 @@
+.site-header-cart .cart-contents .count {
+	background-color: $regular_accent_color_1;
+}
+
+.top-panel {
+	background-color: @alpha($top_panel_bg, 22%);
+}
+
+/* jet-posts */
+.jet-posts .entry-title a {
+	color: $regular_link_hover_color;
+}
+.jet-posts .entry-title a:hover {
+	color: $regular_link_color;
+}
+
+.cherry-team .team-listing_name {
+	font-weight: $h4_font_weight;
+}
+
+/* grid-boxes-hover template */
+.template-grid-boxes-hover .team-meta_item.position {
+	color: @alpha($invert_text_color, 75);
+}
+.template-grid-boxes-hover .team-meta_item.phone,
+.template-grid-boxes-hover .team-meta_item.location,
+.template-grid-boxes-hover .team-meta_item.email {
+	color: @alpha($invert_text_color, 85);
+}
+.template-grid-boxes-hover .team-meta_item.email:hover {
+	color: $regular_accent_color_1;
+}
+
+.cherry-team.template-grid-boxes-hover .team-listing_name a {
+	color: $invert_text_color;
+}
+.cherry-team.template-grid-boxes-hover .team-listing_name a:hover {
+	color: $regular_accent_color_1;
+}
+
+.template-grid-boxes-hover .team-listing_desc {
+	color: $regular_text_color;
+}
+
+.template-grid-boxes-hover .team-listing .team-socials_link {
+	color: $regular_text_color;
+}
+.template-grid-boxes-hover .team-listing .team-socials_link:hover {
+	color: $regular_accent_color_1;
+}
+
+/*TM Testi*/
+
+.tm-testi .tm-testi--boxed-center .tm-testi__item-body {
+	font-weight: $h5_font_weight;
+	background: $invert_accent_color_1;
+	color: $regular_h4_color;
+	border-color: $regular_accent_color_1;
+}
+
+.tm-testi .tm-testi--boxed-center .tm-testi__item-body cite {
+	font-size: $h3_font_size{px};
+	color: $regular_accent_color_1;
+}
+
+.tm-testi .tm-testi--boxed-center .tm-testi__item-company {
+	color: @darken($regular_text_color, 5);
+}
+
+.invert .tm-testi .tm-testi--boxed-center .tm-testi__item-body {
+	border-color: $invert_accent_color_1;
+}
+
+/*Contact Form 7*/
+.invert .wpcf7-form-control.wpcf7-submit {
+	color: $regular_accent_color_1;
+}
+
+.invert .btn:hover,
+.invert .wpcf7-form-control.wpcf7-submit:hover {
+	background-color: $regular_accent_color_1;
+}
+
+.header-btn.btn {
+	border-color: @alpha($invert_accent_color_1, 20%);
+}
+.header-btn.btn:hover {
+	border-color: $regular_accent_color_1;
+	background-color: $regular_accent_color_1;
+}
+
+.invert .search-form__field { color: $invert_text_color; }
+
+.site-header .search-form-wrapper .search-form__field { color: $regular_text_color; }
+.site-header .search-form-wrapper .search-form__field::-webkit-input-placeholder { color: $regular_text_color; }
+.site-header .search-form-wrapper .search-form__field::-moz-placeholder { color: $regular_text_color; }
+.site-header .search-form-wrapper .search-form__field:-moz-placeholder { color: $regular_text_color; }
+.site-header .search-form-wrapper .search-form__field:-ms-input-placeholder { color: $regular_text_color; }
+
+.header-container {
+	background-color: @alpha($header_bg_color, 22%);
+}
+
+/*Carousel*/
+div.swiper-container .swiper-button-next,
+div.swiper-container .swiper-button-prev{
+	color: $regular_accent_color_1;
+	border-color: $regular_accent_color_1;
+}
+
+.swiper-container .swiper-button-next:hover,
+.swiper-container .swiper-button-prev:hover{
+	background: $regular_link_hover_color !important;
+	color: $invert_accent_color_1;
+	border-color: $regular_link_hover_color;
+}
+.invert div.swiper-container .swiper-button-next,
+.invert div.swiper-container .swiper-button-prev{
+	color: $invert_accent_color_1;
+	border-color: $invert_accent_color_1;
+}
+.invert .swiper-container .swiper-button-next:hover,
+.invert .swiper-container .swiper-button-prev:hover{
+	background: $invert_accent_color_1 !important;
+	color: $regular_accent_color_1;
+}

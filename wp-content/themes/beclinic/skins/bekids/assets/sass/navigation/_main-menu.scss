@@ -1,0 +1,12 @@
+.main-navigation {
+	@include media-breakpoint-up(md) {
+		.jet-menu {
+			&-item:first-child {
+				margin-left: 0;
+				.top-level-link {
+					padding-left: 0;
+				}
+			}
+		}
+	}
+}

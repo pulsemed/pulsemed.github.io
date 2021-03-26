@@ -1,0 +1,68 @@
+.mptt-shortcode-wrapper {
+	.mptt-navigation-select {
+		@include font-size(14/16);
+		width: auto;
+		appearance: menulist-button;
+		-moz-appearance: button;
+		border: none;
+		background-color: rgba($color__background-hr, .15);
+	}
+	.mptt-shortcode-table {
+		border-collapse: separate;
+		border-spacing: 4px;
+		border: none;
+		thead {
+			tr.mptt-shortcode-row th {
+				padding: .9rem 1rem;
+				border: none;
+				background: none;
+				@include font-size(14/16);
+				font-weight: 400;
+			}
+		}
+		tbody {
+			tr:nth-child(2n+2) {
+				background-color: rgba($color__background-hr, .25);
+			}
+			td {
+				border: none;
+				&.mptt-shortcode-hours {
+					@include font-size(14/16);
+				}
+				.mptt-event-container {
+					.event-title,
+					.event-description,
+					.event-user,
+					.timeslot {
+						margin: 14px 12px;
+					}
+					.event-title {
+						margin-bottom: 0;
+						text-decoration: none !important;
+					}
+					.event-title,
+					.event-description,
+					.event-user {
+						@include font-size(14/16);
+						font-weight: 400;
+					}
+					.timeslot {
+						@include font-size(16/16);
+						font-weight: 700;
+						opacity: .7;
+					}
+				}
+			}
+		}
+	}
+}
+
+.single-mp-event {
+	.entry-content {
+		> p {
+			>br {
+				display: none;
+			}
+		}
+	}
+}

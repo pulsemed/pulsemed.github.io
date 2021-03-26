@@ -1,0 +1,43 @@
+.cherry-team.team-wrap .team-listing {
+	.team-listing {
+		&_name {
+			font-weight: 700;
+		}
+	}
+}
+
+
+/* Grid-boxes template style */
+
+.cherry-team.team-wrap.template-grid-boxes {
+	.team-listing {
+		.team-listing {
+			&_wrap {
+				padding: 40px 28px 60px;
+				text-align: center;
+				&:hover {
+					box-shadow: 8px 8px 60px rgba( 6, 30, 52, .1);
+				}
+				.team-listing_image+.team-listing_person_info {
+					margin-top: 30px;
+				}
+			}
+			&_content {
+				padding: 0;
+			}
+			&_photo {
+				padding: 0;
+			}
+			&_person_info {
+				padding: 0;
+				.team-macros {
+					display: none;
+				}
+			}
+			&_photo .avatar,
+			&_content {
+				border-radius: 50%;
+			}
+		}
+	}
+}

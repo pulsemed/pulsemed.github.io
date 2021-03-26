@@ -1,0 +1,9 @@
+.site-header.style-2 {
+	.header-container__flex {
+		@include media-breakpoint-between(md, md) {
+			.header-nav-wrapper {
+				order: 3;
+			}
+		}
+	}
+}

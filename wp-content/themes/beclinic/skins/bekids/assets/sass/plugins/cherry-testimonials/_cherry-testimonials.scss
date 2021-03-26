@@ -1,0 +1,17 @@
+.tm-testi {
+	& &__inner &__item-body {
+		@include font-size(30/16);
+		line-height: 1.4;
+		font-style: italic;
+	}
+	blockquote {
+		cite {
+			@include font-size(18/16);
+		}
+	}
+	&--default-center &__item {
+		.avatar {
+			border-radius: 50%;
+		}
+	}
+}

@@ -1,0 +1,9 @@
+
+/*  WooComerce styles */
+
+.woocommerce .single-product div.product form.cart div.quantity .tm-qty-minus,
+.woocommerce .single-product div.product form.cart div.quantity .tm-qty-plus,
+.woocommerce.single-product div.product form.cart div.quantity .tm-qty-minus,
+.woocommerce.single-product div.product form.cart div.quantity .tm-qty-plus {
+	line-height: 2.2;
+}

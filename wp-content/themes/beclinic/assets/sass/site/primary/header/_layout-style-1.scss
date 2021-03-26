@@ -1,0 +1,27 @@
+.site-header.default {
+	.site-branding {
+		@include media-breakpoint-up(md) {
+			margin-right: auto;
+		}
+	}
+	.main-navigation {
+		@include media-breakpoint-up(md) {
+			.menu {
+				justify-content: flex-end;
+			}
+		}
+	}
+	.header-container__flex {
+		@include media-breakpoint-between(md, md) {
+			.site-branding {
+				order: 1;
+			}
+			.header-btn {
+				order: 2;
+			}
+			.header-nav-wrapper {
+				order: 3;
+			}
+		}
+	}
+}

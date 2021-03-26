@@ -1,0 +1,370 @@
+/* #Header */
+.header-container {
+	background-color: $header_bg_color;
+}
+.header-btn.btn {
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+	font-size: @font_size($h6_font_size, multiple, ceil, 1)px;
+	line-height: $h6_line_height;
+	font-family: $h6_font_family;
+	letter-spacing: $h6_letter_spacing{px};
+	color: $invert_h6_color;
+}
+.header-btn.btn {
+	color: $invert_link_hover_color;
+	border-color: $invert_link_hover_color;
+}
+.header-btn.btn:hover {
+	color: $regular_link_hover_color;
+	border-color: $regular_accent_color_1;;
+	background-color: $regular_accent_color_1;
+}
+
+
+/* ##Top Panel */
+.top-panel {
+	color: $invert_accent_color_1;
+	background-color: $top_panel_bg;
+}
+.top-panel a,
+.search-form__toggle,
+.site-header-cart .cart-contents i {
+	color: $invert_link_hover_color;
+}
+.top-panel a:hover,
+.search-form__toggle:hover,
+.site-header-cart .cart-contents:hover i {
+	color: $regular_accent_color_2;
+}
+
+.top-panel i {
+	color: $regular_accent_color_1;
+}
+.site-header-cart .cart-contents .count {
+	color: $regular_link_hover_color;
+	background-color: $regular_accent_color_1;
+}
+
+/* ##Main Menu */
+.jet-menu .top-level-link:before {
+	background-color: $regular_accent_color_1;
+}
+
+/* Footer */
+.site-footer .contact-block__inner {
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+	font-size: @font_size($h6_font_size, multiple, ceil, 1)px;
+	line-height: $h6_line_height;
+	font-family: $h6_font_family;
+	letter-spacing: $h6_letter_spacing{px};
+}
+.footer-container .contact-block__label {
+	color: $invert_text_color;
+}
+
+.social-list .menu-item a {
+	color: $invert_text_color;
+}
+.social-list .menu-item a:hover {
+	color: $invert_link_color;
+}
+
+.site-footer a:hover {
+	color: $invert_link_hover_color;
+}
+
+.woocommerce .wishlist_compare_button_block button.button.btn {
+	background-color: $invert_link_color;
+}
+.woocommerce .wishlist_compare_button_block button.button.btn:hover {
+	background-color: $invert_link|_hover_color;
+}
+.woocommerce .tm-woocompare-button::after,
+.woocommerce .tm-woowishlist-button::after,
+.woocommerce .tm-woocompare-button::color,
+.woocommerce .tm-woowishlist-button::color {
+	color: $invert_accent_color_1;
+}
+
+/* blog */
+.sidebar .widget-title,
+.shop-sidebar .widget-title {
+	color: $regular_link_color;
+}
+
+.widget-subscribe {
+	background-color: $regular_accent_color_2;
+}
+.widget.widget-subscribe .widget-title {
+	color: $invert_accent_color_1;
+}
+
+.post__date a,
+.posted-by a,
+.post__tags a,
+.post__cats a,
+.post__comments a {
+	color: $regular_link_color;
+}
+.post__date a:hover,
+.posted-by a:hover,
+.post__tags a:hover,
+.post__cats a:hover,
+.post__comments a:hover {
+	color: $regular_link_hover_color;
+}
+
+.single-modern-header .entry-meta,
+.single-modern-header .post__date a i,
+.single-modern-header .post__comments a i {
+	color: $regular_accent_color_2;
+}
+
+.single-modern-header .posted-by a,
+.single-modern-header .post__cats a,
+.single-modern-header .post__date a,
+.single-modern-header .post__comments a {
+	color: $invert_link_color;
+}
+.single-modern-header .posted-by a:hover,
+.single-modern-header .post__cats a:hover,
+.single-modern-header .post__date a:hover,
+.single-modern-header .post__comments a:hover {
+	color: $invert_link_hover_color;
+}
+
+.widget ul li a:hover,
+.elementor-widget ul li a:hover {
+	color: $regular_link_color;
+}
+.elementor-widget ul li a:hover:before {
+	background-color: $regular_link_color;
+}
+
+
+.entry-content a{
+	color: $regular_link_color;
+}
+
+
+/*List*/
+.entry-content ol >li:before,
+.site-main ol >li:before,
+.entry-content ul:not([class]) > li:before,
+.site-main ul:not([class]) > li:before {
+	color: $regular_link_color;
+}
+
+/* ##Projects */
+.projects-item-instance .hover-content:before {
+	background-color:  @alpha($invert_accent_color_2, 80%);
+}
+.projects-container:not(.list-layout) .projects-item .project-entry-title a,
+.projects-container:not(.list-layout) .projects-item .post-terms,
+.projects-container:not(.list-layout) .projects-item .post-terms a {
+	color: $invert_link_hover_color;
+}
+.projects-container:not(.list-layout) .projects-item .project-entry-title a:hover,
+.projects-container:not(.list-layout) .projects-item .post-terms a:hover {
+	color: $invert_link_color;
+}
+
+/* ##Testi */
+.tm-testi .tm-testi--boxed .tm-testi__item {
+	background-color: @alpha($invert_accent_color_2, 30%);
+}
+.tm-testi .tm-testi__item-body {
+	font-weight: $body_font_weight;
+	font-family: $body_font_family;
+}
+.tm-testi blockquote cite {
+	font-family: $body_font_family;
+}
+.tm-testi--boxed blockquote cite,
+.tm-testi--boxed .tm-testi__item-position, 
+.tm-testi--boxed .tm-testi__item-email, 
+.tm-testi--boxed .tm-testi__item-company {
+	color: $invert_accent_color_1;
+}
+
+.tm-testi-slider__next,
+.tm-testi-slider__prev {
+	color: $regular_link_color;
+	border: 2px solid @alpha($regular_link_color, 50%);
+}
+.tm-testi-slider__next:hover,
+.tm-testi-slider__prev:hover {
+	color: $regular_link_hover_color;
+	border: 2px solid $regular_link_hover_color;
+}
+.invert .swiper-button-next.tm-testi-slider__next,
+.invert .swiper-button-prev.tm-testi-slider__prev {
+	color: $invert_link_hover_color;
+	border: 2px solid @alpha($invert_link_hover_color, 50%);
+}
+.invert .swiper-button-next.tm-testi-slider__next:hover,
+.invert .swiper-button-prev.tm-testi-slider__prev:hover {
+	color: $invert_link_color;
+	border: 2px solid $invert_link_color;
+}
+
+/* ##Team */
+.template-grid-boxes .team-listing_person_info {
+	color: $invert_accent_color_1;
+	background-color: @alpha($invert_accent_color_2, 20%);
+}
+.template-grid-boxes .team-listing_name a,
+.template-grid-boxes .team-meta_item.position,
+.template-grid-boxes .team-meta_item.phone,
+.template-grid-boxes .team-meta_item.location,
+.template-grid-boxes .team-meta_item.email {
+	color: $invert_link_hover_color;
+}
+.template-grid-boxes .team-listing_name a:hover,
+.template-grid-boxes .team-meta_item.email:hover {
+	color: $invert_link_color;
+}
+.team-meta_item.position,
+.team-item .team-listing_name {
+	font-style: $body_font_style;
+	font-family: $body_font_family;
+}
+.team-meta_item.position {
+	color: $regular_link_color;
+}
+.team-meta_item.phone,
+.team-meta_item.location,
+.team-meta_item.email {
+	color: $regular_link_hover_color;
+}
+
+/* wpcf7 */
+.wpcf7 input[type='submit'] {
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+	font-family: $h6_font_family;
+	letter-spacing: $h6_letter_spacing{px};
+}
+.invert .wpcf7 .sign-up__field input {
+	border: 1px solid @alpha($invert_accent_color_1, 10%);
+	background-color: @alpha($invert_accent_color_1, 10%);
+}
+.invert .wpcf7 .sign-up__submit input[type='submit'] {
+	color: $invert_link_hover_color;
+	background-color: $invert_accent_color_2;
+}
+.invert .wpcf7 input[type='submit'] {
+	color: $invert_link_hover_color;
+	background-color: @alpha($invert_link_color, 0%);
+}
+.invert .wpcf7 input[type='submit']:hover {
+	color: $invert_link_color;
+	border-color: $invert_accent_color_1;
+	background-color: $invert_accent_color_1;
+}
+
+/* Elementor */
+.elementor-divider-separator {
+	color: $regular_link_color;
+}
+
+/* ##Elements */
+.elementor-widget-container h3:not([class]) {
+	color: $regular_accent_color_2;
+}
+.booked-calendar-shortcode-wrap .booked-calendar-wrap .booked-calendar thead .days th {
+	background: $regular_accent_color_2 !important;
+}
+
+.elementor-widget-container .elementor-button-wrapper .elementor-button {
+	color: $regular_link_hover_color;
+	background-color: $regular_accent_color_2;
+}
+.elementor-widget-container .elementor-button-wrapper .elementor-button:hover {
+	color: $invert_accent_color_1;
+	background-color: $invert_accent_color_2;
+}
+.elementor-widget-image-box .elementor-image-box-description, .elementor-widget-image-box .elementor-image-box-description {
+	font-size: $body_font_size{px};
+	line-height: $body_line_height;
+}
+
+.jet-image-comparison .jet-arrow {
+	background-color: $regular_accent_color_1;
+}
+.jet-image-comparison .jet-arrow:hover {
+	background-color: $regular_link_hover_color;
+}
+
+.jet-image-comparison .jx-controller {
+	background-color: $regular_accent_color_1;
+}
+
+.jet-image-comparison .jet-slick-dots li.slick-active span,
+.jet-image-comparison .jet-slick-dots li:hover span {
+	background-color: $regular_accent_color_1;
+}
+.jet-image-comparison .jet-slick-dots li span {
+	background-color: $regular_link_hover_color;
+}
+
+.jet-posts .post-meta {
+	color: $regular_text_color;
+}
+.jet-posts .post-meta a {
+	color: $regular_link_color;
+}
+.jet-posts .post-meta a:hover {
+	color: $regular_link_hover_color;
+}
+.jet-posts .post__date {
+	background-color: $invert_accent_color_2;
+}
+.jet-posts .post__date a {
+	color: $invert_link_hover_color;
+}
+.jet-posts .post__date a:hover {
+	color: $invert_link_color;
+}
+
+/* wpcf7 */
+.invert .wpcf7-form-control.wpcf7-submit {
+	color: $invert_link_hover_color;
+	border: 1px solid $invert_link_hover_color;
+	background-color: @alpha($invert_link_color, 0%);
+}
+.invert .wpcf7-form-control.wpcf7-submit:hover {
+	color: $invert_link_hover_color;
+	border-color: $invert_link_color;
+	background-color: $invert_link_color;
+}
+
+/* booked */
+.booked-calendar-shortcode-wrap .booked-calendar-wrap.small .booked-calendar thead {
+	background-color: $regular_accent_color_2 !important;
+}
+
+/*tab*/
+.elementor-widget-tabs .elementor-tab-title:hover {
+	color: $regular_link_color;
+}
+.elementor-widget-tabs .elementor-tab-title.elementor-active {
+	color: $regular_link_color;
+}
+.elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tabs-wrapper .elementor-tab-title.elementor-active::before {
+	background-color: $regular_link_color;
+}
+
+
+/* accordion */
+.elementor-accordion .elementor-tab-title.elementor-active,
+.elementor-accordion .elementor-tab-title .elementor-accordion-icon,
+.elementor-accordion .elementor-tab-title:hover {
+	color: $regular_link_color;
+}
+
+.invert.subscribe-block {
+	color: $invert_accent_color_1;
+}
