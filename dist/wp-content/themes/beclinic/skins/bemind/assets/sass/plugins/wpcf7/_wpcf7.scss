@@ -1,0 +1,40 @@
+/* WordPress Contact Form 7 styles */
+
+.wpcf7 {
+  .wpcf7-form-control-wrap {
+    input,
+    select,
+    textarea {
+      border: none;
+      border-radius: 5px;
+      padding: 10px 15px;
+      border: 1px solid $color__border-input;
+    }
+  }
+  p {
+    i {
+      top: 50%;
+      transform: translateY(0%);
+      @include media-breakpoint-down(md) {
+        right: 30px;
+      }
+      @include media-breakpoint-up(md) {
+        right: 40px;
+      }
+    }
+  }
+  .site & {
+    .ajax-loader {
+      margin: 0 -10px 0 0;
+      left: 15px;
+    }
+  }
+  .wpcf7-select {
+    height: 50px;
+  }
+}
+
+.wpcf7 input[type='submit'],
+.wpcf7 input[type='reset'] {
+  padding: 24px 50px;
+}

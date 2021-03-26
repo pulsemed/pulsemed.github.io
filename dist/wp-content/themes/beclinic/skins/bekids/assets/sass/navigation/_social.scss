@@ -1,0 +1,9 @@
+.social-list {
+	&--header {
+		.site-header.style-2 & {
+			@include media-breakpoint-up(xl) {
+				padding: 11px 18px 11px 3px;
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+.widget {
+	&-title {
+		.footer-area & {
+			&:after {
+				content: none;
+			}
+		}
+	}
+}

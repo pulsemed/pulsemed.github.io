@@ -1,0 +1,16 @@
+/* cherry-posts */
+$border-radius: 5px;
+
+.elementor-jet-posts.jet-elements {
+	.jet-carousel {
+		.jet-posts__item {
+			.jet-posts__inner-box {
+				.post-thumbnail {
+					.post-thumbnail__img {
+						border-radius: $border-radius;
+					}
+				}
+			}
+		}
+	}
+}

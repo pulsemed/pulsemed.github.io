@@ -1,0 +1,56 @@
+.wpcf7 {
+	input,
+	select,
+	textarea {
+		padding: 10px 20px;
+		border-radius: 3px;
+		border: 1px solid $color__border-input;
+		.invert & {
+			border: none;
+			background-color: rgba($color__white, .2);
+		}
+	}
+	&-form {
+		p {
+			font-size: 18px;
+			font-weight: 300;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			i {
+				top: 16px;
+				right: 35px;
+			}
+		}
+	}
+	& &-submit {
+		margin-top: 20px;
+		border-radius: 30px;
+		font-size: 16px;
+		line-height: 1.2;
+		padding: 17px 32px 14px;
+	}
+	.sign-up {
+		display: flex;
+		&__field {
+			width: 100%;
+			input {
+				border-top-left-radius: $border__radius;
+				border-bottom-left-radius: $border__radius;
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+			}
+		}
+		&__submit {
+			flex-shrink: 0;
+			input[type='submit'] {
+				margin: 0;
+				padding: 17px 32px 16px;
+				border: none;
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+				border-top-right-radius: $border__radius;
+				border-bottom-right-radius: $border__radius;
+			}
+		}
+	}
+}

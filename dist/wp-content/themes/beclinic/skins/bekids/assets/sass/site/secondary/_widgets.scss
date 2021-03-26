@@ -1,0 +1,16 @@
+.widget {
+	&-title {
+		.footer-area & {
+			&:after {
+				content: none;
+			}
+		}
+	}
+}
+
+.footer-area {
+	padding: 30px 0 10px;
+	@include media-breakpoint-up(lg) {
+		padding: 60px 0 23px;
+	}
+}

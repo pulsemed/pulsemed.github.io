@@ -1,0 +1,26 @@
+.swiper {
+	&-pagination-bullets {
+		position: absolute;
+		.swiper-container.swiper-container-horizontal & {
+			bottom: 30px;
+		}
+		.posts-list:not(.posts-list--default) .post-gallery .swiper-container.swiper-container-horizontal &,
+		.posts-list--default.featured-image--small .post-gallery .swiper-container.swiper-container-horizontal & {
+			bottom: 15px;
+		}
+		.widget-carousel &,
+		.tm_pb_swiper & {
+			position: static;
+		}
+	}
+	&-pagination-bullet {
+		width: 14px;
+		height: 14px;
+		border: none;
+		opacity: 1;
+		transition: .3s;
+		.swiper-container.swiper-container-horizontal & {
+			margin: 0 12px;
+		}
+	}
+}

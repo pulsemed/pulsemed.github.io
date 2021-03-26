@@ -1,0 +1,7 @@
+.contact-block {
+	&--header {
+		@include media-breakpoint-between(md, md) {
+			margin-left: auto;
+		}
+	}
+}

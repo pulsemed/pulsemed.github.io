@@ -1,0 +1,52 @@
+/* Cherry Testimonials */
+.tm-testi { 
+	.tm-testi {
+		&--speech-bubble {
+			.tm-testi__list {
+				.tm-testi__item {
+					.tm-testi__inner {
+						blockquote {
+							.tm-testi__item-body {
+								&:after {
+									content: none;
+								}
+								p {
+									font-style: italic;
+								}
+								padding: 25px 5px 0px 0px;
+							}
+							.tm-testi__item-meta {
+								padding-top: 26px;
+								.tm-testi__item-avatar {
+									border-radius: 50%;
+									margin-right: 20px;
+								}
+								footer {
+									align-self: center;
+									cite {
+										.tm-testi__item-name {
+											text-transform: uppercase;
+											font-size: 14px;
+										}
+									}
+									.tm-testi__item-company,
+									.tm-testi__item-email,
+									.tm-testi__item-position {
+										font-weight: 300;
+										font-size: 14px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			.swiper-pagination {
+				@media (min-width: 767px) {
+					margin-top: 45px;
+					text-align: left;
+				}
+			}
+		}
+	}
+}

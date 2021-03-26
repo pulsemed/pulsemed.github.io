@@ -1,4 +1,3 @@
-/dist/*
 .env
 *.zip
 node_modules

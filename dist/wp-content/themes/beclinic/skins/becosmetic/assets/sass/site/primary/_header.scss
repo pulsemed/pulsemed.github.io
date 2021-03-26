@@ -1,0 +1,10 @@
+.site-header {
+	&.transparent {
+		.header-container {
+			background: none;
+		}
+	}
+	.top-panel {
+		border: none;
+	}
+}

@@ -1,0 +1,74 @@
+.tm-testi {
+	& &__inner &__item-body {
+		font-size: 22px;
+		line-height: 1.36;
+		font-style: italic;
+	}
+	& &__item-name,
+	& &__item-company {
+		font-style: normal;
+		font-weight: 400;
+	}
+	& &__item-name {
+		text-transform: uppercase;
+	}
+	& &__item-company {
+		text-transform: initial;
+	}
+	&--boxed {
+		.tm-testi__item {
+			padding: 70px 45px;
+			footer {
+				margin-top: 15px;
+			}
+		}
+	}
+	blockquote {
+		cite {
+			font-size: 14px;
+			line-height: 1.28;
+		}
+	}
+	.tm-testi-slider__pags.swiper-pagination {
+		position: absolute;
+		margin-top: 0;
+		bottom: 10px;
+	}
+	.swiper-button-next.tm-testi-slider__next {
+		right: 0px;
+	}
+	.swiper-button-prev.tm-testi-slider__prev {
+		left: auto;
+		right: 65px;
+	}
+}
+
+.tm-testi-slider {
+	padding: 0 0 75px;
+	&__next,
+	&__prev {
+		top: auto;
+		bottom: 0;
+		margin: 0;
+		width: 48px;
+		height: 48px;
+		text-align: center;
+		border-radius: 50%;
+		background: none !important;
+		&:before {
+			@include font-awesome-icon;
+			font-size: 12px;
+			line-height: 48px;
+		}
+	}
+	&__next {
+		&:before {
+			content: '\f054';
+		}
+	}
+	&__prev {
+		&:before {
+			content: '\f053';
+		}
+	}
+}

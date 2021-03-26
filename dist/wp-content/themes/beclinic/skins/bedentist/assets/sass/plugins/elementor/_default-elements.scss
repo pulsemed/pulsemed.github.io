@@ -1,0 +1,10 @@
+/* button */
+
+.elementor-widget-container .elementor-button-wrapper {
+	.elementor-button {
+		@include font-size(20/16);
+		font-weight: 700;
+		text-transform: initial;
+		letter-spacing: 0;
+	}
+}

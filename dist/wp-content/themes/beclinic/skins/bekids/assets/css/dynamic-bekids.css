@@ -1,0 +1,270 @@
+
+/* ##Top Panel */
+
+.top-panel {
+	background-color: $top_panel_bg
+}
+
+.top-panel .contact-block + .top-panel__container__items:before,
+.site-header.style-2 .top-panel .contact-block + .top-panel__container__items:before {
+	background-color: @alpha($invert_accent_color_1, 20%);
+}
+
+.top-panel a,
+.search-form__toggle,
+.site-header-cart .cart-contents i {
+	color: $invert_accent_color_1;
+}
+
+.top-panel a:hover,
+.search-form__toggle:hover,
+.site-header-cart .cart-contents:hover i {
+	color: @alpha($invert_accent_color_1, 50%);
+}
+
+/* ##Header */
+
+.header-container {
+	background-color: $header_bg_color;
+}
+
+.site-header.style-2 .header-phone {
+	color: $regular_accent_color_1;
+}
+
+.breadcrumbs {
+	background-color: $regular_accent_color_1;
+}
+
+.site-header .search-form__field {
+	color: $regular_text_color;
+}
+
+.jet-mobile-menu-toggle-button {
+	background: $regular_accent_color_2;
+}
+
+/* ##Footer */
+.site-footer a {
+	color: $invert_accent_color_1;
+}
+.site-footer a:hover {
+	color: @alpha($invert_accent_color_1, 50%);
+}
+
+.invert.footer-container {
+	color: $invert_accent_color_1;
+}
+
+.invert .footer-area {
+	color: $invert_text_color;
+}
+
+.footer-social-wrap {
+	background-color: @lighten($footer_widgets_bg, 2.5%);
+}
+
+.site-footer .subscribe-block .subscribe-block__input {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_1;
+}
+.site-footer .subscribe-block .subscribe-block__submit {
+	color: $invert_accent_color_1;
+}
+.site-footer .subscribe-block .subscribe-block__submit:hover {
+	color: @alpha($invert_accent_color_1, 50%);
+}
+.site-footer .subscribe-block .subscribe-block__submit::-webkit-input-placeholder { 
+	color: $invert_accent_color_1;
+}
+.site-footer .subscribe-block .subscribe-block__submit::-moz-placeholder {
+	color: $invert_accent_color_1;
+}
+.site-footer .subscribe-block .subscribe-block__submit:-ms-input-placeholder {
+	color: $invert_accent_color_1;
+}
+.site-footer .subscribe-block .subscribe-block__submit:-moz-placeholder {
+	color: $invert_accent_color_1;
+}
+
+.invert .footer-area .widget ul li a {
+	color: $invert_text_color;
+}
+
+.invert .footer-area .widget ul li a:hover {
+	color: $invert_link_hover_color;
+}
+
+.invert .footer-menu .menu-item a {
+	color: $invert_accent_color_1;
+}
+
+.invert .footer-menu .menu-item a:hover {
+	color: @alpha($invert_accent_color_1, 50%);
+}
+
+#toTop:hover {
+	background: $regular_accent_color_2;
+}
+
+/* ##Jet-menu */
+
+.jet-menu .top-level-link {
+	color: $regular_text_color;
+}
+.jet-menu .top-level-link:before {
+	background-color: $regular_accent_color_2;
+}
+
+/* ##btn */
+
+.btn,
+button,
+a.button,
+.entry-content .btn,
+.comment-form .submit,
+.wpcf7-form-control.wpcf7-submit,
+.post-password-form label + input,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce button.button.tm-woocompare-empty,
+.woocommerce input.button,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce button.button.btn.tm-wc-ajax-load-more-button {
+	color: $invert_accent_color_1;
+	background:  $regular_link_color;
+
+}
+
+.btn:hover,
+button:hover,
+a.button:hover,
+.entry-content .btn:hover,
+.comment-form .submit:hover,
+.wpcf7-form-control.wpcf7-submit:hover,
+.post-password-form label + input:hover,
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce button.button.tm-woocompare-empty:hover,
+.woocommerce input.button:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce a.button.add_to_cart_button.loading:hover,
+.woocommerce button.button.btn.tm-wc-ajax-load-more-button:hover {
+	color: $invert_accent_color_1;
+	background:$regular_link_hover_color;
+}
+
+.woocommerce .tm-woocompare-button::after,
+.woocommerce .tm-woowishlist-button::after,
+.woocommerce .tm-woocompare-button::before,
+.woocommerce .tm-woowishlist-button::before {
+	color: $invert_accent_color_1;
+}
+
+.header-btn.btn,
+.header-btn.btn:focus {
+	color: $regular_accent_color_2;
+	border-color: $regular_accent_color_2;
+}
+.header-btn.btn:hover,
+.header-btn.btn:active {
+	color: $invert_accent_color_1;
+	border-color: $regular_accent_color_2;
+	background-color: $regular_accent_color_2;
+}
+.invert .wpcf7-form-control.wpcf7-submit {
+	color: $regular_link_color;
+}
+
+/* blog */
+.posted-by a:hover,
+.post__tags a:hover,
+.post__cats a:hover {
+	color: $regular_accent_color_2;
+}
+
+.single-modern-header .entry-meta,
+.single-modern-header .post__date a i,
+.single-modern-header .post__comments a i {
+	color: $regular_accent_color_2;
+}
+
+.single-modern-header .posted-by a,
+.single-modern-header .post__cats a,
+.single-modern-header .post__date a,
+.single-modern-header .post__comments a {
+	color: $invert_link_color;
+}
+.single-modern-header .posted-by a:hover,
+.single-modern-header .post__cats a:hover,
+.single-modern-header .post__date a:hover,
+.single-modern-header .post__comments a:hover {
+	color: $invert_link_hover_color;
+}
+
+/* ##Projects */
+.projects-item-instance .hover-content:before {
+	background-color:  @alpha($invert_link_color, 80%);
+}
+.projects-container:not(.list-layout) .projects-item .project-entry-title a,
+.projects-container:not(.list-layout) .projects-item .post-terms,
+.projects-container:not(.list-layout) .projects-item .post-terms a {
+	color: $invert_link_hover_color;
+}
+.projects-container:not(.list-layout) .projects-item .project-entry-title a:hover,
+.projects-container:not(.list-layout) .projects-item .post-terms a:hover {
+	color: $regular_link_hover_color;
+}
+
+
+/* ###Testi */
+.tm-testi .tm-testi__item-body {
+	font-family: $body_font_family;
+}
+
+.tm-testi .invert .avatar {
+	border: 2px solid $invert_accent_color_1;
+}
+
+/* ###Team */
+.template-grid-boxes .team-listing_wrap {
+	background-color: $invert_accent_color_1;
+}
+.cherry-team .team-listing_name a {
+	color: $regular_link_color;
+}
+.cherry-team .team-listing_name a:hover {
+	color: $regular_link_hover_color;
+}
+
+/* Elementor */
+.elementor-divider-separator {
+	color: $regular_accent_color_2;
+}
+
+/* jet elements */
+.jet-posts__inner-content {
+	background-color: $invert_accent_color_1;
+}
+.jet-posts .btn.jet-more {
+	color: $regular_accent_color_1;
+}
+.jet-posts .btn.jet-more:hover {
+	color: $regular_link_hover_color;
+}
+.jet-posts .post__date a:hover {
+	color: $regular_link_hover_color;
+}
+
+/* jet-countdown-timer */
+.jet-countdown-timer {
+	color: $regular_accent_color_2;
+}

@@ -1,0 +1,107 @@
+.jet-posts .entry-title {
+	font-weight: $body_font_weight;
+}
+
+.jet-posts .post__date a {
+	color: @darken($regular_accent_color_2, 5%);
+}
+
+.tm-testi .tm-testi--boxed-2 .swiper-pagination .swiper-pagination-bullet:hover:before,
+.tm-testi .tm-testi--boxed-2 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active:before {
+	background-color: @alpha( $regular_accent_color_1, 40 );
+	color: $invert_accent_color_1;
+}
+
+.projects-container:not(.list-layout) .projects-item .post-terms,
+.projects-container:not(.list-layout) .projects-item .post-terms a {
+	color: $invert_link_color;
+}
+
+.projects-container:not(.list-layout) .projects-item .post-terms a:hover {
+	color: $invert_link_hover_color;
+}
+
+.site-header-cart .cart-contents .count {
+	background-color: $regular_accent_color_1;
+}
+
+.header-btn.btn {
+	color: $regular_accent_color_1;
+	background-color: $invert_accent_color_1;
+}
+
+.header-btn.btn:hover {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_1;
+	border-color: $regular_accent_color_1;
+}
+
+.invert .btn:hover,
+.invert .wpcf7-form-control.wpcf7-submit:hover {
+	background-color: $regular_accent_color_1;
+}
+
+/* #Header */
+.header-container {
+	background-color: $header_bg_color;
+}
+.transparent .header-container {
+	background-color: @alpha($header_bg_color, 20%);
+}
+.top-panel {
+	background-color: $top_panel_bg;
+}
+.transparent .top-panel {
+	background-color: @alpha($top_panel_bg, 20%);
+}
+
+/* ##Top Panel */
+.top-panel {
+	color: $regular_text_color;
+}
+.top-panel i {
+	color: @alpha($regular_text_color, 40%);
+}
+.top-panel a,
+.search-form__toggle,
+.site-header-cart .cart-contents i {
+	color: $regular_text_color;
+}
+.top-panel a:hover,
+.search-form__toggle:hover,
+.site-header-cart .cart-contents:hover i {
+	color: @darken($regular_link_color, 15%);
+}
+
+.site-header .contact-block__item + .contact-block__item:before,
+.top-panel__container__items > *:before,
+.site-header.style-2 .top-panel .contact-block + .top-panel__container__items:before {
+	background-color: @alpha($invert_accent_color_1, 30%);
+}
+.site-header.style-2 .top-panel {
+	border-color: @alpha($invert_accent_color_1, 30%);
+}
+
+
+/* ##Jet-menu */
+.jet-menu .top-level-link {
+	color: $regular_text_color;
+}
+
+.jet-menu .jet-menu-hover .top-level-link,
+.jet-menu .jet-current-menu-item .top-level-link,
+.jet-menu .jet-current-menu-parent .top-level-link {
+	color: @darken($regular_accent_color_1, 10%);
+}
+
+/* ##Projects */
+.projects-item-instance .simple-icon,
+.projects-item-instance .hover-content:before,
+.cherry-projects-single-post .featured-image a .cover,
+.cherry-projects-single-post .additional-image a .cover {
+	background-color: @alpha($regular_link_hover_color, 50);
+}
+.projects-container:not(.list-layout) .projects-item .project-entry-title a:hover,
+.projects-container:not(.list-layout) .projects-item .post-terms a:hover {
+	color: $regular_link_color;
+}
